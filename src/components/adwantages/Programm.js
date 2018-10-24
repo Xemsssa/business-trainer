@@ -39,7 +39,7 @@ export default class Programm extends Component {
                 {this.state.practicum.map(item => (
                     <Punkt item={item} />
                 ))}
-                <hr></hr>
+                {/* <hr></hr> */}
             </div>
             
             <Bron/>
