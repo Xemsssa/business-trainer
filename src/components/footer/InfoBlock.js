@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import Button from '../button/Button';
 
 export default class InfoBlock extends Component {
   render() {
@@ -11,7 +12,7 @@ export default class InfoBlock extends Component {
             </div>
 
             <div className="info_button margin_bottom_small" >
-                <button className="text_transform font_bold background_color header_button ">принять участие</button>
+                <Button />
             </div>
 
             <div className="contactsBlock">
