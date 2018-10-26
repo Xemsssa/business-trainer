@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 export default class Speaker extends Component {
   render() {
     return (
-        <div className="speaker header_text ">
+        <div className="speaker header_text " id="speaker">
             <div className="container">
                 <div className="dima ">
                     <div className="row padding_big">

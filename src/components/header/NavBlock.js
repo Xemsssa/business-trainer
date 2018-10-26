@@ -5,8 +5,8 @@ export default class NavBlock extends Component {
        super(props);
        this.state = {
            navBlock: [
-               {id: 0, navName: 'Программа', navLink: '#'},
-               {id: 1, navName: 'Ведущий', navLink: '#'},
+               {id: 0, navName: 'Программа', navLink: '#programm'},
+               {id: 1, navName: 'Ведущий', navLink: '#speaker'},
             ]
        }
     }

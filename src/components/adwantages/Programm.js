@@ -33,7 +33,7 @@ export default class Programm extends Component {
 
   render() {
     return (
-        <div className="col-sm-5 adwantages_column">
+        <div className="col-sm-5 adwantages_column" id="programm">
             <div className="programm background_style padding_big padding_hor margin_bottom_small">
                 <h4 className="text_transform font_bold margin_bottom_small">Программа практикума</h4>
                 {this.state.practicum.map((item, key) => (
@@ -42,7 +42,7 @@ export default class Programm extends Component {
                 {/* <hr></hr> */}
             </div>
             
-            <Bron/>
+            <Bron />
         </div>
     )
   }

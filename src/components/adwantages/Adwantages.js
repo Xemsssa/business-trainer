@@ -9,7 +9,7 @@ export default class Adwantages extends Component {
         <div className="container padding_small">
             <h1 className="adwantages_header text_transform font_bold margin_bottom_big">Что вы получите на практикуме? </h1>
         
-            <div className="row header_text adwantages_row">
+            <div className="row header_text adwantages_row wrapper">
                 <Programm />
                 <Block />
             </div>

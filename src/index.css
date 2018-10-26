@@ -215,12 +215,17 @@ code {
 /* 
 .height_25{
   height: 25%;
-} */
-/* 
+} 
+
 .height_33{
   height: 33%;
 }
-*/
+
+
+.wrapper {
+  height: 1200px;
+  border: 1px solid red;
+} */
 
 .newPath {
   background-image: url('../src/assets/Rectangle-6.png');
