@@ -13,17 +13,17 @@ export default class NavBlock extends Component {
 
   render() {
     return (
-        <div class="navBlock">
-            <a class="hamburger" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
-                <div class="line"></div>
-                <div class="line" style={{marginTop: 5+'px', marginBottom: 5+'px'}}></div>
-                <div class="line"></div>
+        <div className="navBlock">
+            <a className="hamburger" className="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+                <div className="line"></div>
+                <div className="line" style={{marginTop: 5+'px', marginBottom: 5+'px'}}></div>
+                <div className="line"></div>
             </a>
-            <div class="" id="navbar-collapse">
-                <ul class="nav navbar-nav headerNav navLink_theme font_bold text_transform">
+            <div className="" id="navbar-collapse">
+                <ul className="nav navbar-nav headerNav navLink_theme font_bold text_transform">
                     {this.state.navBlock.map((item, key) => (
-                        <li class="nav-item">
-                            <a href={item.navLink} class="nav-link header_text">
+                        <li className="nav-item" key={key}>
+                            <a href={item.navLink} className="nav-link header_text">
                                 {item.navName}
                             </a>
                         </li>    

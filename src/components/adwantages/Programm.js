@@ -33,11 +33,11 @@ export default class Programm extends Component {
 
   render() {
     return (
-        <div class="col-sm-5 adwantages_column">
-            <div class="programm background_style padding_big padding_hor margin_bottom_small">
-                <h4 class="text_transform font_bold margin_bottom_small">Программа практикума</h4>
-                {this.state.practicum.map(item => (
-                    <Punkt item={item} />
+        <div className="col-sm-5 adwantages_column">
+            <div className="programm background_style padding_big padding_hor margin_bottom_small">
+                <h4 className="text_transform font_bold margin_bottom_small">Программа практикума</h4>
+                {this.state.practicum.map((item, key) => (
+                    <Punkt item={item} key={key} />
                 ))}
                 {/* <hr></hr> */}
             </div>
