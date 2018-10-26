@@ -21,9 +21,9 @@ export default class NavBlock extends Component {
             </a>
             <div class="" id="navbar-collapse">
                 <ul class="nav navbar-nav headerNav navLink_theme font_bold text_transform">
-                    {this.state.navBlock.map((item) => (
+                    {this.state.navBlock.map((item, key) => (
                         <li class="nav-item">
-                            <a href={item.navLink} class="nav-link header_text  ">
+                            <a href={item.navLink} class="nav-link header_text">
                                 {item.navName}
                             </a>
                         </li>    

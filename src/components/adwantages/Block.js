@@ -78,8 +78,8 @@ export default class Block extends Component {
       <div class="col-sm-7">
           <div class="row ">
               <div class="col-md-6 ">
-                {this.state.adwantages_column.map(item => (
-                     <div className={`height_33 background_style padding_huge padding_hor_big margin_bottom_small ${item.style}`}>
+                {this.state.adwantages_column.map((item, key) => (
+                     <div className={`height_33 background_style padding_huge padding_hor_big margin_bottom_small ${item.style}`} key={key}>
                         <h4 class="font_bold  text_transform">{item.header}</h4>
                         <p class="paragraph_text">{item.paragraph_text}</p>
                     </div>

@@ -6,9 +6,9 @@ import Banner from '../banner/Banner';
 export default class Header extends Component {
   render() {
     return (
-        <header class="header">
-            <div class="container">
-                <div class="headerBlock padding_small">
+        <header className="header">
+            <div className="container">
+                <div className="headerBlock padding_small">
                     <HeaderLogo />
                     <NavBlock />
                 </div>

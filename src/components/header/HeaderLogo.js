@@ -5,7 +5,7 @@ export default class HeaderLogo extends Component {
   render() {
     return (
         <a href="#">
-            <img src={logo} class="logo"/>
+            <img src={logo} className="logo"/>
         </a>
     )
   }
