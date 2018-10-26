@@ -152,6 +152,10 @@ code {
   color:#fff;
 }
 
+.width {
+  width: 100%;
+}
+
 .header_bottom {
   text-align: right;
 }

@@ -16,7 +16,7 @@ export default class FooterForm extends Component {
                     <input type="text" placeholder="Эл. Адрес"  className="form-control form_input"/>
                 </div>
                 <div className="form-group">
-                    <Button/>
+                    <Button width="width"/>
                     {/* <Button style="width: 100%"/> */}
                 </div>
             </div>
